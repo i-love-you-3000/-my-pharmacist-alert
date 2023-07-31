@@ -1,0 +1,22 @@
+{
+  "cli": {
+    "version": ">= 3.16.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "android" : { 
+        "serviceAccountKeyPath":"./test-ffe63-b39b7a456e9a.json"
+      }
+    }
+  }
+}
